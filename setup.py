@@ -50,7 +50,7 @@ setup(
     # long_description=read('README.rst'),
     packages=find_packages(),
     python_requires='>=3.5',
-    install_requires=['pytest', 'requests', 'psutil>=5.1.0'],
+    install_requires=['pytest', 'peewee', 'psutil>=5.1.0'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Pytest',
